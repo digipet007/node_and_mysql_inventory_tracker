@@ -1,6 +1,6 @@
-# Project Title
+# node_and_mysql_inventory_tracker
 
-One Paragraph of project description goes here
+This is an Amazon-like storefront that uses MySQL. The app will take in orders from customers and deplete stock from the store's inventory.
 
 ## Getting Started
 
@@ -8,80 +8,48 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+To utilize this app, you will need access to the command line. You may use the command line within VS Code or any other command line interface, such as Bash (Born-Again-SHell).
 
-```
-Give examples
-```
+You will also need the Node Packet Manager installed.  For more information, visit: <https://www.npmjs.com/get-npm>
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+To install, access the Github page (https://github.com/digipet007/node_and_mysql_inventory_tracker).  You may fork the repository and then clone it to your computer.  
 
-Say what the step will be
-
+Next, you will need to download the required NPM packages.  The required NPM packages include:
 ```
-Give the example
+* "inquirer": "^7.0.0",
+* "mysql": "^2.17.1"
 ```
+Because these are listed as dependencies already in the package.json file, you may install these packages by typing `npm install` on the commandline.
 
-And repeat
+Your Inventory Tracking app should now be up and running!
 
-```
-until finished
-```
+## Deployment and General Use
 
-End with an example of getting some data out of the system or using it for a little demo
+To use this app, run it in the terminal with the following command:
 
-## Running the tests
+`node bamazonCustomer.js`
 
-Explain how to run the automated tests for this system
+The inquirer will then display current products and prompt the user to specify the target product for purchase as well as the desired quantity.  Please note that this is currently case-sensitive and will not recognize product entries that do not exactly match the database's product names.
 
-### Break down into end to end tests
+Here is a live demonstration of this app:
 
-Explain what these tests test and why
+[![using command line prompts](http://img.youtube.com/vi/1reuKn2ajY0/0.jpg)](http://www.youtube.com/watch?v=1reuKn2ajY0 "Node and MySQL Inventory Tracker")
 
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* Javascript
 
-## Contributing
+The following packages were used to create this app:
+* mysql <https://www.npmjs.com/package/mysql>
+* inquirer <https://www.npmjs.com/package/inquirer>
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+## Author
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **Sarah Arnold** --view my portfolio and bio: <https://digipet007.github.io/Sarahs-Portfolio/>
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Created for UW Full Stack Flex Certificate program, according to program specifications.
