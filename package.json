@@ -1,0 +1,21 @@
+{
+  "name": "node_and_mysql_inventory_tracker",
+  "version": "1.0.0",
+  "description": "Inventory tracker that uses Node.js and MySQL",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "MySQL",
+    "databases",
+    "Javascript",
+    "Express"
+  ],
+  "author": "Sarah Arnold",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.17.1"
+  }
+}
